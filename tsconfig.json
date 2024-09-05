@@ -14,5 +14,7 @@
     "emitDecoratorMetadata": true
   },
   "include": ["src/**/*.ts"],
+
+  // Excluir todos los archivos con la extensión .test.ts
   "exclude": ["src/**/*.test.ts"]
 }
